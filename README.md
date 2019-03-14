@@ -5,3 +5,5 @@
 ## About `.vimrc`
 
 ## About `.my.cnf`
+
+![Example](README/example_my_cnf.png)
