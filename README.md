@@ -19,11 +19,12 @@ ENV_MODE="localhost"
 #ENV_MODE="trial"
 
 # Change the color for each environment.
-ENV_COLOR="$'32m'" # Localhost
+#ENV_COLOR="32m" # Localhost
 #ENV_COLOR="31m" # Production
-#ENV_COLOR="$'33m'" # Staging
-#ENV_COLOR="$'34m'" # Development
-#ENV_COLOR="$'35m'" # Trial
+#ENV_COLOR="33m" # Staging
+#ENV_COLOR="34m" # Development
+ENV_COLOR="35m" # Trial
+
 ```
 
 
