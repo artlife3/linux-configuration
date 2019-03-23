@@ -29,6 +29,23 @@ ENV_COLOR="$'32m'" # Localhost
 
 ## About `.bash_profile`
 
+### Prompt color
+
+### For localhost
+![Example](README/ps1_example_color_localhost.jpg)
+
+### For Production
+![Example](README/ps1_example_color_production.jpg)
+
+### For Staging
+![Example](README/ps1_example_color_staging.jpg)
+
+### For Development
+![Example](README/ps1_example_color_development.jpg)
+
+### For Trial
+![Example](README/ps1_example_color_trial.jpg)
+
 ### PS1設定Example
 
 #### Datetime added
