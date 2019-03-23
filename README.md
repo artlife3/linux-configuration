@@ -35,21 +35,25 @@ ENV_COLOR="$'32m'" # Localhost
 ```
 export PS1='\[\033[1;$ENV_COLOR\]\h@\u [\D{%Y-%m-%d %T}]\[\033[00m\]:\[\033[1;34m\]\W \[\033[00m\]\n\$ '
 ```
+![Example](README/ps1_example_datetime_add.jpg)
 
 #### Standard
 ```
 export PS1='\[\033[1;$ENV_COLOR\]\h@\u\[\033[00m\]:\[\033[1;34m\]\W \[\033[00m\]\$ '
 ```
+![Example](README/ps1_example_standard.jpg)
 
 #### With Git
 ```
 export PS1='\[\033[1;$ENV_COLOR\]\h@\u\[\033[00m\]:\[\033[1;34m\]\W\[\033[1;31m\]$(__git_ps1)\[\033[00m\] \$ '
 ```
+![Example](README/ps1_example_with_git.jpg)
 
 #### Datetime added with Git
 ```
 export PS1='\[\033[1;$ENV_COLOR\]\h@\u [\D{%Y-%m-%d %T}]\[\033[00m\]:\[\033[1;34m\]\W\[\033[1;31m\]$(__git_ps1)\[\033[00m\]\n\$ '
 ```
+![Example](README/ps1_example_datetime_add_with_git.jpg)
 
 ## About `.vimrc`
 
