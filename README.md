@@ -19,15 +19,33 @@ ENV_MODE="localhost"
 #ENV_MODE="trial"
 
 # Change the color for each environment.
-ENV_COLOR="$'32m'" # Localhost
+ENV_COLOR="32m" # Localhost
 #ENV_COLOR="31m" # Production
-#ENV_COLOR="$'33m'" # Staging
-#ENV_COLOR="$'34m'" # Development
-#ENV_COLOR="$'35m'" # Trial
+#ENV_COLOR="33m" # Staging
+#ENV_COLOR="34m" # Development
+#ENV_COLOR="35m" # Trial
+
 ```
 
 
 ## About `.bash_profile`
+
+### Prompt color
+
+### For localhost
+![Example](README/ps1_example_color_localhost.jpg)
+
+### For Production
+![Example](README/ps1_example_color_production.jpg)
+
+### For Staging
+![Example](README/ps1_example_color_staging.jpg)
+
+### For Development
+![Example](README/ps1_example_color_development.jpg)
+
+### For Trial
+![Example](README/ps1_example_color_trial.jpg)
 
 ### PS1設定Example
 
