@@ -15,12 +15,7 @@ set shiftwidth=4
 "set tabstop=4
 
 set list
-"set listchars=tab:<-↲
-set listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%↲
-
-
-" 改行コード表示
-"set lcs=tab:>.,eol:$,trail:_,extends:\
+set listchars=tab:»-,trail:-,extends:»,precedes:«
 
 " ステータスラインに表示する情報の指定
 set laststatus=2
