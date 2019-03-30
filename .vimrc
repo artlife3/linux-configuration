@@ -14,8 +14,10 @@ set shiftwidth=4
 "set smarttab
 "set tabstop=4
 
-"set list
-"set listchars=tab:<-
+set list
+"set listchars=tab:<-↲
+set listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%↲
+
 
 " 改行コード表示
 "set lcs=tab:>.,eol:$,trail:_,extends:\
