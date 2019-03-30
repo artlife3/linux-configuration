@@ -20,7 +20,7 @@ set listchars=tab:»-,trail:-,extends:»,precedes:«
 " ステータスラインに表示する情報の指定
 set laststatus=2
 set statusline=%<%f\ %m%r%h%w%{'['.(&fenc!=''?&fenc:&enc).']['.&ff.']'}%=%l,%c%V%8P
-
+set fileformats=unix
 
 " 全角ハイライト
 highlight JpSpace cterm=underline ctermfg=Blue guifg=Blue
