@@ -1,8 +1,8 @@
-# .bash_profile
-
-if [ -f ~/.bashrc ] ; then
-. ~/.bashrc
-fi
+# .bashrc
+# MacOS
+. /etc/profile
+# Linux
+#. /etc/environment
 
 # User specific aliases and functions
 umask 002
